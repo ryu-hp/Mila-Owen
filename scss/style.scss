@@ -23,20 +23,23 @@ $mediaquerys: (
 $base-font-family:  "mr-eaves-modern", sans-serif;
 $second-font-family: "acumin-pro", sans-serif ;
 $bold : 700;
-$demi : 600;
-$medium : 500;
+$reg : 400;
+$weight_r : 300;
 
-$color-black: #565757;
-$color-white: #D2BEB8;
+$color-black: #000;
+$color-white: #fff;
 $color-theme: #DA9292;
-$color-peach: #DA9292;
+$color-red: #6F4C4C;
 $color-rosseta: #B2DDDE;
 $color-daisy: #C7835E;
 $color-pink: #F6C6D7;
 $color-load-bg: #E9D9D7;
 $color-load-second-bg: #EEE7E0;
 
+$inner: 1400px;
 
+$padding-pc: rem(25);
+$padding-sp: rem(20);
 
 #MO240319swimsuit {
     font-family: $base-font-family;
@@ -96,5 +99,24 @@ $color-load-second-bg: #EEE7E0;
         @include mq(md) {
             display: none;
         }
+    }
+    .inner {
+        width: 100%;
+        max-width: calc($inner + ($padding-pc * 2));
+        padding-right: $padding-pc;
+        padding-left: $padding-pc;
+        margin-right: auto;
+        margin-left: auto;
+        box-sizing: border-box;
+        @include mq(md) {
+            padding-right: $padding-sp;
+            padding-left: $padding-sp;
+        }
+    }
+    .text-transform-uppercase {
+        text-transform: uppercase;
+    }
+    .image-block {
+        display: block;
     }
 }

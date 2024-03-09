@@ -8,7 +8,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2009 All Rights Reserved.
 
 <%-- ▽ ユーザーコントロール宣言領域 ▽ --%>
 <%@ Page Title="SWIM WEAR │ Mila Owen（ミラ オーウェン）公式サイト" Language="C#" Inherits="ContentsPage" MasterPageFile="~/Form/Common/DefaultPage.master" %>
-<%@ Register TagPrefix="uc" TagName="index" Src="~/Page/feature/milaowen_lptemplate/parts/text.ascx" %>
+<%@ Register TagPrefix="uc" TagName="index" Src="~/Page/feature/2024/0319/parts/text.ascx" %>
 <%-- △ ユーザーコントロール宣言領域 △ --%>
 
 <%--
