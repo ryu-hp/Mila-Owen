@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@use "sass:math";
+
+//ブレイクポイント
+$breakpoints: (
+  md: 767,
+);
+//メディアクエリー
+$mediaquerys: (
+  md: "screen and (max-width: #{map-get($breakpoints,'md')}px)",
+);
+// @include mq(){}で書くとブレークポイントが反映される（初期値はmd）
+@mixin mq($mediaquery: md) {
+  @media #{map-get($mediaquerys, $mediaquery)} {
+    @content;
+  }
+}
+// remへの計算式（16pxを基準としている。10pxを基準とする場合は16を10に変更する）
+@function rem($pixels) {
+    @return math.div($pixels, 10) * 1rem;
+}
+
+$base-font-family:  "mr-eaves-modern", sans-serif;
+$second-font-family: "acumin-pro", sans-serif ;
+$bold : 700;
+$demi : 600;
+$medium : 500;
+
+$color-black: #565757;
+$color-white: #D2BEB8;
+$color-theme: #DA9292;
+$color-peach: #DA9292;
+$color-rosseta: #B2DDDE;
+$color-daisy: #C7835E;
+$color-pink: #F6C6D7;
+$color-load-bg: #E9D9D7;
+$color-load-second-bg: #EEE7E0;
+
+
+
+#MO240319swimsuit {
+    font-family: $base-font-family;
+    font-weight: 400;
+    * {
+        transition-timing-function: ease;
+    }
+    .font-sub {
+        font-family: $second-font-family;
+        font-weight: 300;
+        font-style: normal;
+    }
+    .js-fadeIn {
+        opacity: 0 ;
+        visibility: hidden;
+        transition: opacity 1s, visibility 1s;
+    }
+    .js-fadeIn.visible {
+        opacity: 1 ;
+        visibility: visible;    
+    }
+    .js-fadeInLeft {
+        opacity: 0 ;
+        visibility: hidden;
+        transform: translateX(80px);
+        transition: opacity 1s, visibility 1s, transform 1s;
+    }
+    .js-fadeInRight {
+        opacity: 0 ;
+        visibility: hidden;
+        transform: translateX(-80px);
+        transition: opacity 1s, visibility 1s, transform 1s;
+    }
+    .js-fadeInLeft.visible, 
+    .js-fadeInRight.visible {
+        opacity: 1 ;
+        visibility: visible;    
+        transform: translateX(0);
+    }
+    .js-fadeInMv {
+        opacity: 0 ;
+        visibility: hidden;
+        transition: opacity 1.5s, visibility 1.5s;
+    }
+    .js-fadeInMv.visible {
+        opacity: 1 ;
+        visibility: visible ease;
+    }
+    .only-mobile {
+        display: none;
+        @include mq(md) {
+            display: block;
+        }
+    }
+    .only-desktop {
+        display: block;
+        @include mq(md) {
+            display: none;
+        }
+    }
+}
