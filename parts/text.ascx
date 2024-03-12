@@ -160,7 +160,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
         </div>
         <div class="main__imagesBox-5_rightImages">
           <p class="main__imagesBox-5_head">
-            halter neck<br class="only-mobile">swimwear
+            halter neck<span class="only-desktop"> </span><br class="only-mobile">swimwear
           </p>
           <div href="" class="image_08 js-fadeInLeft">
             <a href="">
@@ -180,7 +180,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
   <section id = "bottom" class = "bottom">
     <div class="bottom__inner inner">
       <div class="bottom__headBox">
-        <p class="bottom__head"><span class="bottom__head--line_red">全てのアイテムをチェック</span></p>
+        <a href="" class="bottom__head"><span class="bottom__head--line_red">全てのアイテムをチェック</span></a>
       </div>
       <div class="bottom__staff">
         <p class="bottom__subHead">Staff</p>
