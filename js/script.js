@@ -1,6 +1,6 @@
 $(document).ready(function() {
     function fadeAnimation() {
-        $('.js-fadeIn, .js-fadeInRight, .js-fadeInLeft').each(function() {
+        $('.js-fadeInMv, .js-fadeIn, .js-fadeInRight, .js-fadeInLeft').each(function() {
         var elemPos = $(this).offset().top;
         var windowHeight = $(window).height();
         var scrollPos = $(window).scrollTop() + windowHeight - 100;

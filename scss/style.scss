@@ -28,13 +28,8 @@ $weight_r : 300;
 
 $color-black: #000;
 $color-white: #fff;
-$color-theme: #DA9292;
+$color-theme: #6F4C4C;
 $color-red: #6F4C4C;
-$color-rosseta: #B2DDDE;
-$color-daisy: #C7835E;
-$color-pink: #F6C6D7;
-$color-load-bg: #E9D9D7;
-$color-load-second-bg: #EEE7E0;
 
 $inner: 1400px;
 
@@ -44,6 +39,21 @@ $padding-sp: rem(20);
 #MO240319swimsuit {
     font-family: $base-font-family;
     font-weight: 400;
+
+    background-image: url(../img/bg/page_pc.jpg);
+    background-size: cover;
+    background-position: center -111px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    section {
+        opacity: 0.5;
+    }
+    padding-bottom: rem(44);
+    @include mq(md) {
+
+        background-image: url(../img/bg/page_sp.jpg);
+        background-position: center -136px;
+    }
     * {
         transition-timing-function: ease;
     }
@@ -86,7 +96,7 @@ $padding-sp: rem(20);
     }
     .js-fadeInMv.visible {
         opacity: 1 ;
-        visibility: visible ease;
+        visibility: visible;
     }
     .only-mobile {
         display: none;
@@ -102,7 +112,7 @@ $padding-sp: rem(20);
     }
     .inner {
         width: 100%;
-        max-width: calc($inner + ($padding-pc * 2));
+        max-width: calc($inner);
         padding-right: $padding-pc;
         padding-left: $padding-pc;
         margin-right: auto;
@@ -118,5 +128,443 @@ $padding-sp: rem(20);
     }
     .image-block {
         display: block;
+    }
+    img {
+        width: 100%;
+        display: block;
+    }
+    .credit_text {
+        font-family: $second-font-family;
+        font-weight: 300;
+        font-style: normal;
+        font-size: rem(13);
+        letter-spacing: 0.02em;
+        line-height: calc(30 / 13);
+        @include mq(md) {
+            letter-spacing: 0;
+            font-size: rem(25);
+            line-height: 2.1;
+        }
+    }
+    .underLine {
+        position: relative;
+    }
+    .underLine::after {
+        position: absolute;
+        display: block;
+        content: "";
+        width: 100%;
+        height: 2px;
+        bottom:0.35rem;
+        background: $color-black;
+        left: 0;
+        @include mq(md) {
+            bottom: rem(-3);
+        }
+    }
+    .ml-1 {
+        margin-left: rem(11);
+        @include mq(md) {
+            margin-left: rem(20);
+        }
+    }
+    .ml-1_sp {
+        @include mq(md) {
+            margin-left: rem(20);
+        }
+    }
+    .ml-1_pc {
+        margin-left: rem(11);
+        @include mq(md) {
+            margin-left: 0;
+        }
+    }
+    //個別SCSS
+    
+    .mv__inner {
+        width: 100%;
+        max-width: calc(1200px + ($padding-pc * 2));
+        padding-right: $padding-pc;
+        padding-left: $padding-pc;
+        margin-right: auto;
+        margin-left: auto;
+        box-sizing: border-box;
+        @include mq(md) {
+            padding-right: 0;
+            padding-left: 0;
+        }
+    }
+    .mv__contents {
+        position: relative;
+    }
+    .mv__text {
+        position: absolute;
+        top: 48.6%;
+        transform: translateY(-50%);
+        left: rem(118);
+        color: $color-white;
+        text-align: center;
+        @include mq(md) {
+            left: 50%;
+            transform: translateX(-50%);
+            top: auto;
+            bottom: rem(205);
+            width: 100%;
+        }
+    }
+    .mv__text--top {
+        font-size: rem(46);
+        line-height: 1;
+        letter-spacing: 0.101em;
+        padding-right: rem(1);
+        @include mq(md) {
+            font-size: rem(57);
+            letter-spacing: 0.045em;
+            padding-right: 0;
+            padding-left: rem(5);
+        }
+    }
+    .mv__text--bottom {
+        font-size: rem(70);
+        line-height: 1;
+        letter-spacing: 0.09em;
+        margin-top: rem(3);
+        @include mq(md) {
+            font-size: rem(95);
+            letter-spacing: 0.091em;
+            padding-left: rem(7);
+            margin-top: rem(-4);
+        }
+    }
+    .main {
+        margin-top: rem(150);
+        @include mq(md) {
+            margin-top: rem(181);
+        }
+    }
+    .main__imagesBox-1 {
+        display: flex;
+        justify-content: center;
+        gap: rem(78);
+        @include mq(md) {
+            display: block;
+        }
+    }
+    .image_01_Box {
+        max-width: rem(481);
+        @include mq(md) {
+            max-width: rem(650);
+            margin: 0 auto;
+        }
+    }
+    .image_01_text {
+        margin-top: rem(20);
+    }
+    .image_02_Box {
+        max-width: rem(330);
+        align-self: flex-end;
+        margin-bottom: rem(3);
+        @include mq(md) {
+            margin: 0 auto;
+            max-width: 100%;
+        }
+    }
+    .main__imagesBox-1_text {
+        font-size: rem(40);
+        color: $color-theme;
+        line-height: 1;
+        @include mq(md) {
+            font-size: rem(80);
+            margin-top: rem(-52);
+            position: relative;
+            z-index: 1;
+        }
+    }
+    .main__imagesBox-1_text--top {
+        text-align: right;
+        padding-right: rem(25);
+        letter-spacing: 0.01em;
+        @include mq(md) {
+            text-align: center;
+            padding-right: 0;
+        }
+    }
+    .main__imagesBox-1_text--cross {
+        max-width: rem(18);
+        margin-left: auto;
+        margin-right: rem(65);
+        margin-top: rem(14);
+        @include mq(md) {
+            max-width: rem(38);
+            margin-right: auto;
+            margin-top: rem(17);
+        }
+    }
+    .main__imagesBox-1_text--bottom {
+        text-align: right;
+        margin-top: rem(7);
+        margin-right: rem(-1);
+        @include mq(md) {
+            margin-top: rem(1);
+            text-align: center;
+        }
+    }
+    .main__imagesBox-1_Bottomtext {
+        @include mq(md) {
+            margin-top: rem(31);
+            text-align: center;
+        }
+    }
+    .image_02 {
+        margin-top: rem(30);
+        @include mq(md) {
+            margin-top: rem(-35);
+            margin-left: auto;
+            margin-right: auto;
+            max-width: rem(510);
+        }
+    }
+    .main__imagesBox-2 {
+        margin-top: rem(66);
+        position: relative;
+        @include mq(md) {
+            display: flex;
+            flex-direction: row-reverse;
+            margin-top: rem(113.5);
+        }
+    }
+    .image_03 {
+        max-width: rem(310);
+        margin: 0 auto;
+        @include mq(md) {
+            max-width: rem(451);
+            margin-left: 0;
+            margin-right: rem(24);
+            padding-bottom: rem(5);
+        }
+    }
+    .main__imagesBox-2_text {
+        position: absolute;
+        bottom: rem(-2);
+        left: calc(50% + rem(229));
+        transform: translateX(-50%);
+        @include mq(md) {
+            position: static;
+            transform: translate(0);
+            align-self: flex-end;
+            margin-right: rem(43);
+        }
+        
+    }
+    .main__imagesBox-3 {
+        display: flex;
+        margin-top: rem(127);
+        gap: rem(137);
+        margin-left: rem(49);
+        justify-content: center;
+        @include mq(md) {
+            flex-direction: column;
+            margin-top: rem(129);
+            margin-left: 0;
+            gap: 0;
+        }
+    }
+    .main__imagesBox-3_leftImages {
+        max-width: rem(275);
+        align-self: flex-end;
+        @include mq(md) {
+            margin-top: rem(73);
+            max-width: rem(391);
+            order: 1;
+            margin-right: rem(24);
+        }
+    }
+    .main__imagesBox-3_head {
+        color: $color-theme;
+        font-size: rem(40);
+        line-height: calc(48 / 40);
+        letter-spacing: 0.005em;
+        margin-left: rem(-2);
+        @include mq(md) {
+            text-align: center;
+            font-size: rem(80);
+            margin-left: 0;
+            line-height: 0.98;
+        }
+    }
+    .image_04 {
+        margin-top: rem(27);
+        @include mq(md) {
+            margin-top: 0;
+        }
+    }
+    .main__imagesBox-3_rightImages {
+        max-width: rem(413);
+        padding-bottom: rem(33);
+        @include mq(md) {
+            margin-top: rem(43);
+            max-width: rem(580);
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 0;
+        }
+    }
+    .main__imagesBox-3_description {
+        margin-top: rem(18);
+        letter-spacing: 0.01em;
+        text-align: right;
+        @include mq(md) {
+            margin-top: rem(30);
+            text-align: center;
+        }
+    }
+    .main__imagesBox-4 {
+        margin-top: rem(66);
+        position: relative;
+        @include mq(md) {
+            margin-top: rem(119);
+        }
+    }
+    .image_06 {
+        max-width: rem(305);
+        margin: 0 auto;
+        @include mq(md) {
+            max-width: rem(450);
+            margin-left: rem(24);
+        }
+    }
+    .main__imagesBox-4_text {
+        position: absolute;
+        bottom: rem(-2);
+        left: calc(50% + rem(243.7));
+        transform: translateX(-50%);
+        letter-spacing: 0.012em;
+        @include mq(md) {
+            bottom: rem(47);
+            letter-spacing: 0;
+            left: calc(50% + rem(220));
+            line-height: 1.5;
+        }
+    }
+    .main__imagesBox-5 {
+        margin-top: rem(125);
+        display: flex;
+        justify-content: center;
+        gap: rem(49);
+        @include mq(md) {
+            display: block;
+            margin-top: rem(170);
+        }
+    }
+    .main__imagesBox-5_leftImages {
+        max-width: rem(403);
+        padding-bottom: rem(107);
+        @include mq(md) {
+            padding-bottom: 0;
+            margin: 0 auto;
+            max-width: rem(520);
+        }
+    }
+    .main__imagesBox-5_description {
+        margin-top: rem(18);
+        letter-spacing: 0.015em;
+        @include mq(md) {
+            margin-top: rem(29);
+            letter-spacing: 0.001em;
+            text-align: center;
+        }
+    }
+    .main__imagesBox-5_rightImages {
+        max-width: rem(364);
+        align-self: flex-end;
+        @include mq(md) {
+            margin-top: rem(37);
+            margin-right: auto;
+            margin-left: auto;
+            max-width: rem(520);
+        }
+    }
+    .main__imagesBox-5_head {
+        color: $color-theme;
+        font-size: rem(40);
+        letter-spacing: 0.005em;
+        margin-left: rem(-3);
+        @include mq(md) {
+            letter-spacing: 0.002em;
+            line-height: 0.97;
+            font-size: rem(80);
+            text-align: center;
+        }
+    }
+    .image_08 {
+        margin-top: rem(40);
+        @include mq(md) {
+            margin-top: rem(44);
+        }
+    }
+    .bottom {
+        margin-top: rem(116);
+        @include mq(md) {
+            margin-top: rem(154);
+        }
+    }
+    .bottom__headBox {
+        text-align: center;
+    }
+    .bottom__head {
+        font-size: rem(18);
+        color: $color-black;
+        font-family: "YuGothic" ;
+        letter-spacing: 0.055em;
+        display: inline-block;
+        line-height: 1;
+        padding-top: rem(19);
+        padding-bottom: rem(23);
+        padding-right: rem(70);
+        padding-left: rem(74);
+        border: 1px solid $color-black;
+        @include mq(md) {
+            font-size: rem(28);
+            letter-spacing: 0.07em;
+            padding-top: rem(43);
+            padding-bottom: rem(48);
+            padding-right: rem(163);
+            padding-left: rem(157);
+        }
+    }
+    .bottom__staff {
+        margin-top: rem(96);
+        text-align: center;
+        @include mq(md) {
+            margin-top: rem(136);
+        }
+    }
+    .bottom__subHead {
+        font-size: rem(18);
+        letter-spacing: 0.02em;
+        @include mq(md) {
+            font-size: rem(30);
+        }
+    }
+    .bottom__staffMember,
+    .bottom__staffBottom {
+        font-size: rem(16);
+        line-height: calc(24 / 16);
+        letter-spacing: 0.00em;
+        @include mq(md) {
+            letter-spacing: 0.003em;
+            line-height: 1.47;
+            font-size: rem(28);
+        }
+    }
+    .bottom__staffMember {
+        margin-top: rem(7.5);
+        @include mq(md) {
+            margin-top: rem(11.4);
+        }
+    }
+    .bottom__staffBottom {
+        margin-top: rem(22);
+        padding-top: rem(37);
     }
 }

@@ -1,6 +1,21 @@
 #MO240319swimsuit {
   font-family: "mr-eaves-modern", sans-serif;
   font-weight: 400;
+  background-image: url(../img/bg/page_pc.jpg);
+  background-size: cover;
+  background-position: center -111px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding-bottom: 4.4rem;
+}
+#MO240319swimsuit section {
+  opacity: 0.5;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit {
+    background-image: url(../img/bg/page_sp.jpg);
+    background-position: center -136px;
+  }
 }
 #MO240319swimsuit * {
   -webkit-transition-timing-function: ease;
@@ -56,7 +71,7 @@
 }
 #MO240319swimsuit .js-fadeInMv.visible {
   opacity: 1;
-  visibility: visible ease;
+  visibility: visible;
 }
 #MO240319swimsuit .only-mobile {
   display: none;
@@ -76,7 +91,7 @@
 }
 #MO240319swimsuit .inner {
   width: 100%;
-  max-width: calc(1400px + 5rem);
+  max-width: 1400px;
   padding-right: 2.5rem;
   padding-left: 2.5rem;
   margin-right: auto;
@@ -95,4 +110,554 @@
 }
 #MO240319swimsuit .image-block {
   display: block;
+}
+#MO240319swimsuit img {
+  width: 100%;
+  display: block;
+}
+#MO240319swimsuit .credit_text {
+  font-family: "acumin-pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.3rem;
+  letter-spacing: 0.02em;
+  line-height: 2.3076923077;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .credit_text {
+    letter-spacing: 0;
+    font-size: 2.5rem;
+    line-height: 2.1;
+  }
+}
+#MO240319swimsuit .underLine {
+  position: relative;
+}
+#MO240319swimsuit .underLine::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 2px;
+  bottom: 0.35rem;
+  background: #000;
+  left: 0;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .underLine::after {
+    bottom: -0.3rem;
+  }
+}
+#MO240319swimsuit .ml-1 {
+  margin-left: 1.1rem;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .ml-1 {
+    margin-left: 2rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .ml-1_sp {
+    margin-left: 2rem;
+  }
+}
+#MO240319swimsuit .ml-1_pc {
+  margin-left: 1.1rem;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .ml-1_pc {
+    margin-left: 0;
+  }
+}
+#MO240319swimsuit .mv__inner {
+  width: 100%;
+  max-width: calc(1200px + 5rem);
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .mv__inner {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+#MO240319swimsuit .mv__contents {
+  position: relative;
+}
+#MO240319swimsuit .mv__text {
+  position: absolute;
+  top: 48.6%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 11.8rem;
+  color: #fff;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .mv__text {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    top: auto;
+    bottom: 20.5rem;
+    width: 100%;
+  }
+}
+#MO240319swimsuit .mv__text--top {
+  font-size: 4.6rem;
+  line-height: 1;
+  letter-spacing: 0.101em;
+  padding-right: 0.1rem;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .mv__text--top {
+    font-size: 5.7rem;
+    letter-spacing: 0.045em;
+    padding-right: 0;
+    padding-left: 0.5rem;
+  }
+}
+#MO240319swimsuit .mv__text--bottom {
+  font-size: 7rem;
+  line-height: 1;
+  letter-spacing: 0.09em;
+  margin-top: 0.3rem;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .mv__text--bottom {
+    font-size: 9.5rem;
+    letter-spacing: 0.091em;
+    padding-left: 0.7rem;
+    margin-top: -0.4rem;
+  }
+}
+#MO240319swimsuit .main {
+  margin-top: 15rem;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .main {
+    margin-top: 18.1rem;
+  }
+}
+#MO240319swimsuit .main__imagesBox-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 7.8rem;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .main__imagesBox-1 {
+    display: block;
+  }
+}
+#MO240319swimsuit .image_01_Box {
+  max-width: 48.1rem;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .image_01_Box {
+    max-width: 65rem;
+    margin: 0 auto;
+  }
+}
+#MO240319swimsuit .image_01_text {
+  margin-top: 2rem;
+}
+#MO240319swimsuit .image_02_Box {
+  max-width: 33rem;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-bottom: 0.3rem;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .image_02_Box {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+}
+#MO240319swimsuit .main__imagesBox-1_text {
+  font-size: 4rem;
+  color: #6F4C4C;
+  line-height: 1;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .main__imagesBox-1_text {
+    font-size: 8rem;
+    margin-top: -5.2rem;
+    position: relative;
+    z-index: 1;
+  }
+}
+#MO240319swimsuit .main__imagesBox-1_text--top {
+  text-align: right;
+  padding-right: 2.5rem;
+  letter-spacing: 0.01em;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .main__imagesBox-1_text--top {
+    text-align: center;
+    padding-right: 0;
+  }
+}
+#MO240319swimsuit .main__imagesBox-1_text--cross {
+  max-width: 1.8rem;
+  margin-left: auto;
+  margin-right: 6.5rem;
+  margin-top: 1.4rem;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .main__imagesBox-1_text--cross {
+    max-width: 3.8rem;
+    margin-right: auto;
+    margin-top: 1.7rem;
+  }
+}
+#MO240319swimsuit .main__imagesBox-1_text--bottom {
+  text-align: right;
+  margin-top: 0.7rem;
+  margin-right: -0.1rem;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .main__imagesBox-1_text--bottom {
+    margin-top: 0.1rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .main__imagesBox-1_Bottomtext {
+    margin-top: 3.1rem;
+    text-align: center;
+  }
+}
+#MO240319swimsuit .image_02 {
+  margin-top: 3rem;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .image_02 {
+    margin-top: -3.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 51rem;
+  }
+}
+#MO240319swimsuit .main__imagesBox-2 {
+  margin-top: 6.6rem;
+  position: relative;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .main__imagesBox-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    margin-top: 11.35rem;
+  }
+}
+#MO240319swimsuit .image_03 {
+  max-width: 31rem;
+  margin: 0 auto;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .image_03 {
+    max-width: 45.1rem;
+    margin-left: 0;
+    margin-right: 2.4rem;
+    padding-bottom: 0.5rem;
+  }
+}
+#MO240319swimsuit .main__imagesBox-2_text {
+  position: absolute;
+  bottom: -0.2rem;
+  left: calc(50% + 22.9rem);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .main__imagesBox-2_text {
+    position: static;
+    -webkit-transform: translate(0);
+            transform: translate(0);
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    margin-right: 4.3rem;
+  }
+}
+#MO240319swimsuit .main__imagesBox-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 12.7rem;
+  gap: 13.7rem;
+  margin-left: 4.9rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .main__imagesBox-3 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 12.9rem;
+    margin-left: 0;
+    gap: 0;
+  }
+}
+#MO240319swimsuit .main__imagesBox-3_leftImages {
+  max-width: 27.5rem;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .main__imagesBox-3_leftImages {
+    margin-top: 7.3rem;
+    max-width: 39.1rem;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-right: 2.4rem;
+  }
+}
+#MO240319swimsuit .main__imagesBox-3_head {
+  color: #6F4C4C;
+  font-size: 4rem;
+  line-height: 1.2;
+  letter-spacing: 0.005em;
+  margin-left: -0.2rem;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .main__imagesBox-3_head {
+    text-align: center;
+    font-size: 8rem;
+    margin-left: 0;
+    line-height: 0.98;
+  }
+}
+#MO240319swimsuit .image_04 {
+  margin-top: 2.7rem;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .image_04 {
+    margin-top: 0;
+  }
+}
+#MO240319swimsuit .main__imagesBox-3_rightImages {
+  max-width: 41.3rem;
+  padding-bottom: 3.3rem;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .main__imagesBox-3_rightImages {
+    margin-top: 4.3rem;
+    max-width: 58rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0;
+  }
+}
+#MO240319swimsuit .main__imagesBox-3_description {
+  margin-top: 1.8rem;
+  letter-spacing: 0.01em;
+  text-align: right;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .main__imagesBox-3_description {
+    margin-top: 3rem;
+    text-align: center;
+  }
+}
+#MO240319swimsuit .main__imagesBox-4 {
+  margin-top: 6.6rem;
+  position: relative;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .main__imagesBox-4 {
+    margin-top: 11.9rem;
+  }
+}
+#MO240319swimsuit .image_06 {
+  max-width: 30.5rem;
+  margin: 0 auto;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .image_06 {
+    max-width: 45rem;
+    margin-left: 2.4rem;
+  }
+}
+#MO240319swimsuit .main__imagesBox-4_text {
+  position: absolute;
+  bottom: -0.2rem;
+  left: calc(50% + 24.37rem);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  letter-spacing: 0.012em;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .main__imagesBox-4_text {
+    bottom: 4.7rem;
+    letter-spacing: 0;
+    left: calc(50% + 22rem);
+    line-height: 1.5;
+  }
+}
+#MO240319swimsuit .main__imagesBox-5 {
+  margin-top: 12.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 4.9rem;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .main__imagesBox-5 {
+    display: block;
+    margin-top: 17rem;
+  }
+}
+#MO240319swimsuit .main__imagesBox-5_leftImages {
+  max-width: 40.3rem;
+  padding-bottom: 10.7rem;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .main__imagesBox-5_leftImages {
+    padding-bottom: 0;
+    margin: 0 auto;
+    max-width: 52rem;
+  }
+}
+#MO240319swimsuit .main__imagesBox-5_description {
+  margin-top: 1.8rem;
+  letter-spacing: 0.015em;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .main__imagesBox-5_description {
+    margin-top: 2.9rem;
+    letter-spacing: 0.001em;
+    text-align: center;
+  }
+}
+#MO240319swimsuit .main__imagesBox-5_rightImages {
+  max-width: 36.4rem;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .main__imagesBox-5_rightImages {
+    margin-top: 3.7rem;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 52rem;
+  }
+}
+#MO240319swimsuit .main__imagesBox-5_head {
+  color: #6F4C4C;
+  font-size: 4rem;
+  letter-spacing: 0.005em;
+  margin-left: -0.3rem;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .main__imagesBox-5_head {
+    letter-spacing: 0.002em;
+    line-height: 0.97;
+    font-size: 8rem;
+    text-align: center;
+  }
+}
+#MO240319swimsuit .image_08 {
+  margin-top: 4rem;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .image_08 {
+    margin-top: 4.4rem;
+  }
+}
+#MO240319swimsuit .bottom {
+  margin-top: 11.6rem;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .bottom {
+    margin-top: 15.4rem;
+  }
+}
+#MO240319swimsuit .bottom__headBox {
+  text-align: center;
+}
+#MO240319swimsuit .bottom__head {
+  font-size: 1.8rem;
+  color: #000;
+  font-family: "YuGothic";
+  letter-spacing: 0.055em;
+  display: inline-block;
+  line-height: 1;
+  padding-top: 1.9rem;
+  padding-bottom: 2.3rem;
+  padding-right: 7rem;
+  padding-left: 7.4rem;
+  border: 1px solid #000;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .bottom__head {
+    font-size: 2.8rem;
+    letter-spacing: 0.07em;
+    padding-top: 4.3rem;
+    padding-bottom: 4.8rem;
+    padding-right: 16.3rem;
+    padding-left: 15.7rem;
+  }
+}
+#MO240319swimsuit .bottom__staff {
+  margin-top: 9.6rem;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .bottom__staff {
+    margin-top: 13.6rem;
+  }
+}
+#MO240319swimsuit .bottom__subHead {
+  font-size: 1.8rem;
+  letter-spacing: 0.02em;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .bottom__subHead {
+    font-size: 3rem;
+  }
+}
+#MO240319swimsuit .bottom__staffMember,
+#MO240319swimsuit .bottom__staffBottom {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .bottom__staffMember,
+  #MO240319swimsuit .bottom__staffBottom {
+    letter-spacing: 0.003em;
+    line-height: 1.47;
+    font-size: 2.8rem;
+  }
+}
+#MO240319swimsuit .bottom__staffMember {
+  margin-top: 0.75rem;
+}
+@media screen and (max-width: 767px) {
+  #MO240319swimsuit .bottom__staffMember {
+    margin-top: 1.14rem;
+  }
+}
+#MO240319swimsuit .bottom__staffBottom {
+  margin-top: 2.2rem;
+  padding-top: 3.7rem;
 }
