@@ -30,12 +30,14 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
   <section id = "mv" class = "mv js-fadeInMv">
     <div class="mv__inner">
       <div class="mv__contents">
-        <div class="mv__image">
-          <picture>
-            <source srcset="<%= Constants.PATH_ROOT %>Page/feature/2024/0319/img/sp_01_mv.png" media="(max-width: 767px)" type="image/png">
-            <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/0319/img/pc_01_mv.png" alt="Mila Owen SWIM WEAR">
-          </picture>
-        </div>
+        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=MO240319swimsuitALL">
+          <div class="mv__image">
+            <picture>
+              <source srcset="<%= Constants.PATH_ROOT %>Page/feature/2024/0319/img/sp_01_mv.png" media="(max-width: 767px)" type="image/png">
+              <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/0319/img/pc_01_mv.png" alt="Mila Owen SWIM WEAR">
+            </picture>
+          </div>
+        </a>
         <div class="mv__text">
           <p class="mv__text--top">Mila Owen</p>
           <p class="mv__text--bottom text-transform-uppercase">swim wear</p>
@@ -48,7 +50,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
       <div class="main__imagesBox-1">
         <div class="image_01_Box">
           <div class="image_01 js-fadeIn">
-            <a href="">
+            <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=MO240319swimsuit01">
               <picture>
                   <source srcset="<%= Constants.PATH_ROOT %>Page/feature/2024/0319/img/sp_02_image.png" media="(max-width: 768px)" type="image/png">
                   <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/0319/img/pc_02_image.png" alt="Tops 8,470yen  Pants 8,470yen  Hat 6,930yen  Sandals 14,300yen">
@@ -56,8 +58,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             </a>
           </div>
           <p class="image_01_text credit_text only-desktop">
-            <a class="underLine" href="">Tops 8,470yen</a><a class="underLine ml-1" href="">Pants 8,470yen</a><br><a class="underLine" href="">Hat 6,930yen</a><a class="underLine ml-1" href="
-            ">Sandals 14,300yen</a>
+            <a class="underLine" href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=09WGG241592">Tops 8,470yen</a><a class="underLine ml-1" href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=09WGG241593">Pants 8,470yen</a><br><a class="underLine" href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=09WGH241557">Hat 6,930yen</a><a class="underLine ml-1" href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=09WGS242804">Sandals 14,300yen</a>
           </p>
         </div>
         <div class="image_02_Box">
@@ -72,7 +73,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             <p class="main__imagesBox-1_text--bottom">shorts</p>
           </div>
           <div class="image_02 js-fadeInLeft">
-            <a href="">
+            <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=MO240319swimsuit01">
               <picture>
                 <source srcset="<%= Constants.PATH_ROOT %>Page/feature/2024/0319/img/sp_03_image.png" media="(max-width: 767px)" type="image/png">
                 <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/0319/img/pc_03_image.png" alt="Tops 8,470yen  Pants 8,470yen  Hat 6,930yen  Sandals 14,300yen">
@@ -81,13 +82,12 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
           </div>
         </div>
         <p class="main__imagesBox-1_Bottomtext only-mobile credit_text">
-          <a class="underLine" href="">Tops 8,470yen</a><a class="underLine ml-1" href="">Pants 8,470yen</a><br><a class="underLine" href="">Hat 6,930yen</a><a class="underLine ml-1" href="
-          ">Sandals 14,300yen</a>
+          <a class="underLine" href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=09WGG241592">Tops 8,470yen</a><a class="underLine ml-1" href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=09WGG241593">Pants 8,470yen</a><br><a class="underLine" href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=09WGH241557">Hat 6,930yen</a><a class="underLine ml-1" href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=09WGS242804">Sandals 14,300yen</a>
         </p>
       </div>
       <div class="main__imagesBox-2">
-        <div href="" class="image_03 js-fadeInRight">
-          <a href="">
+        <div class="image_03 js-fadeInRight">
+          <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=MO240319swimsuit04">
             <picture>
               <source srcset="<%= Constants.PATH_ROOT %>Page/feature/2024/0319/img/sp_04_image.png" media="(max-width: 767px)" type="image/png">
               <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/0319/img/pc_04_image.png" alt="Tops 8,470yen Pants 8,470yen">
@@ -95,7 +95,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
           </a>
         </div>
         <p class="main__imagesBox-2_text credit_text">
-          <a class="underLine" href="">Tops 8,470yen</a><br><a href="">Pants 8,470yen</a>
+          <a class="underLine" href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=09WGG241592">Tops 8,470yen</a><br><a class="underLine" href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=09WGG241593">Pants 8,470yen</a>
         </p>
       </div>
       <div class="main__imagesBox-3">
@@ -110,8 +110,8 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             high waist pants<br>
             swimwear
           </p>
-          <div href="" class="image_04 js-fadeInRight">
-            <a href="">
+          <div class="image_04 js-fadeInRight">
+            <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=MO240319swimsuit02">
               <picture>
                 <source srcset="<%= Constants.PATH_ROOT %>Page/feature/2024/0319/img/sp_06_image.png" media="(max-width: 767px)" type="image/png">
                 <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/0319/img/pc_06_image.png" alt="Pierced earrings 4,950yen">
@@ -121,7 +121,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
         </div>
         <div class="main__imagesBox-3_rightImages">
           <div class="image_05 js-fadeIn">
-            <a href="">
+            <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=MO240319swimsuit02">
               <picture>
                 <source srcset="<%= Constants.PATH_ROOT %>Page/feature/2024/0319/img/sp_05_image.png" media="(max-width: 767px)" type="image/png">
                 <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/0319/img/pc_05_image.png" alt="Pierced earrings 4,950yen">
@@ -129,25 +129,25 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             </a>
           </div>
           <p class="main__imagesBox-3_description credit_text">
-            <a class="underLine" href="">Swim wear 14,960yen</a><br class="only-desktop"><a class="underLine ml-1_sp" href="">Pierced earrings 4,950yen</a>
+            <a class="underLine" href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=09WGG241590">Swim wear 14,960yen</a><br class="only-desktop"><a class="underLine ml-1_sp" href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=09WGA241560">Pierced earrings 4,950yen</a>
           </p>
         </div>
       </div>
       <div class="main__imagesBox-4">
-        <div href="" class="image_06 js-fadeInLeft">
-          <a href="">
+        <div class="image_06 js-fadeInLeft">
+          <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=09WGG241590">
             <picture>
               <source srcset="<%= Constants.PATH_ROOT %>Page/feature/2024/0319/img/sp_07_image.png" media="(max-width: 767px)" type="image/png">
               <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/0319/img/pc_07_image.png" alt="Swim wear 14,960yen">
             </picture>
           </a>
         </div>
-        <p class="main__imagesBox-4_text underLine credit_text">Swim wear 14,960yen</p>
+        <p class="main__imagesBox-4_text underLine credit_text"><a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=09WGG241590">Swim wear 14,960yen</a></p>
       </div>
       <div class="main__imagesBox-5">
         <div class="main__imagesBox-5_leftImages">
           <div href="" class="image_07 js-fadeInRight">
-            <a href="">
+            <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=MO240319swimsuit03">
               <picture>
                 <source srcset="<%= Constants.PATH_ROOT %>Page/feature/2024/0319/img/sp_08_image.png" media="(max-width: 767px)" type="image/png">
                 <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/0319/img/pc_08_image.png" alt="Pierced earrings 4,950yen">
@@ -155,15 +155,15 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             </a>
           </div>
           <p class="main__imagesBox-5_description credit_text only-desktop">
-            <a class="underLine" href="">Swim wear 14,960yen</a><a class="underLine ml-1" href="">Pierced earrings 4,950yen</a><br><a class="underLine" href="">Bracelet 4,950yen</a>
+            <a class="underLine" href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=09WGG241591">Swim wear 14,960yen</a><a class="underLine ml-1" href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=09WGA241560">Pierced earrings 4,950yen</a><br><a class="underLine" href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=09WGA241570">Bracelet 4,950yen</a>
           </p>
         </div>
         <div class="main__imagesBox-5_rightImages">
           <p class="main__imagesBox-5_head">
-            halter neck<span class="only-desktop"> </span><br class="only-mobile">swimwear
+            halter neck<br class="only-mobile"><span class="main__imagesBox-5_head--mr">swimwear</span>
           </p>
-          <div href="" class="image_08 js-fadeInLeft">
-            <a href="">
+          <div class="image_08 js-fadeInLeft">
+            <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=MO240319swimsuit03">
               <picture>
                 <source srcset="<%= Constants.PATH_ROOT %>Page/feature/2024/0319/img/sp_09_image.png" media="(max-width: 767px)" type="image/png">
                 <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/0319/img/pc_09_image.png" alt="Pierced earrings 4,950yen">
@@ -172,7 +172,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
           </div>
         </div>
         <p class="main__imagesBox-5_description credit_text only-mobile">
-          <a class="underLine" href="">Swim wear 14,960yen</a><br><a class="underLine ml-1_pc" href="">Pierced earrings 4,950yen</a><a class="underLine ml-1_sp" href="">Bracelet 4,950yen</a>
+          <a class="underLine" href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=09WGG241591">Swim wear 14,960yen</a><br><a class="underLine ml-1_pc" href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=09WGA241560">Pierced earrings 4,950yen</a><a class="underLine ml-1_sp" href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=09WGA241570">Bracelet 4,950yen</a>
         </p>
       </div>
     </div>
@@ -180,7 +180,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
   <section id = "bottom" class = "bottom">
     <div class="bottom__inner inner">
       <div class="bottom__headBox">
-        <a href="" class="bottom__head"><span class="bottom__head--line_red">全てのアイテムをチェック</span></a>
+        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=MO240319swimsuitALL" class="bottom__head"><span class="bottom__head--line_red">全てのアイテムをチェック</span></a>
       </div>
       <div class="bottom__staff">
         <p class="bottom__subHead">Staff</p>
