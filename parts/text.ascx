@@ -126,7 +126,10 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
         <div class="main__imagesBox-5_leftImages">
           <div href="" class="image_07 js-fadeInRight">
             <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=MO240319swimsuit03">
-              <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/0319/img/pc_08_image.jpg" alt="Pierced earrings 4,950yen">
+              <picture>
+                <source srcset="<%= Constants.PATH_ROOT %>Page/feature/2024/0319/img/sp_08_image.jpg" media="(max-width: 767px)" type="image/jpg">
+                <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/0319/img/pc_08_image.jpg" alt="Pierced earrings 4,950yen">
+              </picture>
             </a>
           </div>
           <p class="main__imagesBox-5_description credit_text only-desktop">
