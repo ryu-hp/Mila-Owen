@@ -1,9 +1,3 @@
-@media screen and (max-width: 767px) {
-  html {
-    font-size: 1.33334vw;
-  }
-}
-
 #MO240319swimsuit {
   font-family: "mr-eaves-modern", sans-serif;
   font-weight: 400;
@@ -11,7 +5,7 @@
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit {
-    padding-bottom: 19.5rem;
+    padding-bottom: 26vw;
   }
 }
 #MO240319swimsuit * {
@@ -98,8 +92,8 @@
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .inner {
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 2.6666666667vw;
+    padding-left: 2.6666666667vw;
   }
 }
 #MO240319swimsuit .text-transform-uppercase {
@@ -123,7 +117,7 @@
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .credit_text {
     letter-spacing: 0;
-    font-size: 2.5rem;
+    font-size: 3.3333333333vw;
     line-height: 2.1;
   }
 }
@@ -135,14 +129,14 @@
   display: block;
   content: "";
   width: 100%;
-  height: 2px;
+  height: 1px;
   bottom: 0.35rem;
   background: #000;
   left: 0;
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .underLine::after {
-    bottom: -0.3rem;
+    bottom: -0.4vw;
   }
 }
 #MO240319swimsuit .ml-1 {
@@ -150,12 +144,12 @@
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .ml-1 {
-    margin-left: 2rem;
+    margin-left: 2.6666666667vw;
   }
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .ml-1_sp {
-    margin-left: 2rem;
+    margin-left: 2.6666666667vw;
   }
 }
 #MO240319swimsuit .ml-1_pc {
@@ -200,7 +194,7 @@
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
     top: auto;
-    bottom: 20.5rem;
+    bottom: 27.3333333333vw;
     width: 100%;
   }
 }
@@ -212,10 +206,10 @@
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .mv__text--top {
-    font-size: 5.7rem;
+    font-size: 7.6vw;
     letter-spacing: 0.045em;
     padding-right: 0;
-    padding-left: 0.5rem;
+    padding-left: 0.6666666667vw;
   }
 }
 #MO240319swimsuit .mv__text--bottom {
@@ -226,10 +220,10 @@
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .mv__text--bottom {
-    font-size: 9.5rem;
+    font-size: 12.6666666667vw;
     letter-spacing: 0.091em;
-    padding-left: 0.7rem;
-    margin-top: -0.4rem;
+    padding-left: 0.9333333333vw;
+    margin-top: -0.5333333333vw;
   }
 }
 #MO240319swimsuit .main {
@@ -237,7 +231,7 @@
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .main {
-    margin-top: 18.1rem;
+    margin-top: 24.1333333333vw;
   }
 }
 #MO240319swimsuit .main__imagesBox-1 {
@@ -255,11 +249,11 @@
   }
 }
 #MO240319swimsuit .image_01_Box {
-  max-width: 48.1rem;
+  max-width: 48rem;
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .image_01_Box {
-    max-width: 65rem;
+    max-width: 86.6666666667vw;
     margin: 0 auto;
   }
 }
@@ -285,8 +279,8 @@
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .main__imagesBox-1_text {
-    font-size: 8rem;
-    margin-top: -5.2rem;
+    font-size: 10.6666666667vw;
+    margin-top: -6.9333333333vw;
     position: relative;
     z-index: 1;
   }
@@ -310,9 +304,9 @@
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .main__imagesBox-1_text--cross {
-    max-width: 3.8rem;
+    max-width: 5.0666666667vw;
     margin-right: auto;
-    margin-top: 1.7rem;
+    margin-top: 2.2666666667vw;
   }
 }
 #MO240319swimsuit .main__imagesBox-1_text--bottom {
@@ -322,13 +316,13 @@
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .main__imagesBox-1_text--bottom {
-    margin-top: 0.1rem;
+    margin-top: 0.1333333333vw;
     text-align: center;
   }
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .main__imagesBox-1_Bottomtext {
-    margin-top: 3.1rem;
+    margin-top: 4.1333333333vw;
     text-align: center;
   }
 }
@@ -337,10 +331,10 @@
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .image_02 {
-    margin-top: -3.5rem;
+    margin-top: -4.6666666667vw;
     margin-left: auto;
     margin-right: auto;
-    max-width: 51rem;
+    max-width: 68vw;
   }
 }
 #MO240319swimsuit .main__imagesBox-2 {
@@ -356,7 +350,7 @@
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
-    margin-top: 11.3rem;
+    margin-top: 15.0666666667vw;
   }
 }
 #MO240319swimsuit .image_03 {
@@ -365,10 +359,10 @@
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .image_03 {
-    max-width: 45rem;
+    max-width: 60vw;
     margin-left: 0;
-    margin-right: 2.5rem;
-    padding-bottom: 0.5rem;
+    margin-right: 3.3333333333vw;
+    padding-bottom: 0.6666666667vw;
   }
 }
 #MO240319swimsuit .main__imagesBox-2_text {
@@ -385,7 +379,7 @@
             transform: translate(0);
     -ms-flex-item-align: end;
         align-self: flex-end;
-    margin-right: 4.3rem;
+    margin-right: 5.7333333333vw;
   }
 }
 #MO240319swimsuit .main__imagesBox-3 {
@@ -405,7 +399,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-top: 12.9rem;
+    margin-top: 17.2vw;
     margin-left: 0;
     gap: 0;
   }
@@ -417,12 +411,12 @@
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .main__imagesBox-3_leftImages {
-    margin-top: 7.3rem;
-    max-width: 39.1rem;
+    margin-top: 9.7333333333vw;
+    max-width: 52.1333333333vw;
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
-    margin-right: 2.4rem;
+    margin-right: 3.2vw;
   }
 }
 #MO240319swimsuit .main__imagesBox-3_head {
@@ -435,7 +429,7 @@
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .main__imagesBox-3_head {
     text-align: center;
-    font-size: 8rem;
+    font-size: 10.6666666667vw;
     margin-left: 0;
     line-height: 0.98;
     letter-spacing: 0.005em;
@@ -455,8 +449,8 @@
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .main__imagesBox-3_rightImages {
-    margin-top: 4.3rem;
-    max-width: 58rem;
+    margin-top: 5.7333333333vw;
+    max-width: 77.3333333333vw;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 0;
@@ -466,11 +460,10 @@
   margin-top: 1.9rem;
   letter-spacing: 0.02em;
   text-align: right;
-  margin-right: -0.3rem;
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .main__imagesBox-3_description {
-    margin-top: 3rem;
+    margin-top: 4vw;
     text-align: center;
     letter-spacing: 0.001em;
   }
@@ -481,7 +474,7 @@
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .main__imagesBox-4 {
-    margin-top: 12rem;
+    margin-top: 16vw;
   }
 }
 #MO240319swimsuit .image_06 {
@@ -490,8 +483,8 @@
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .image_06 {
-    max-width: 45rem;
-    margin-left: 2.5rem;
+    max-width: 60vw;
+    margin-left: 3.3333333333vw;
   }
 }
 #MO240319swimsuit .main__imagesBox-4_text {
@@ -504,9 +497,9 @@
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .main__imagesBox-4_text {
-    bottom: 4.7rem;
+    bottom: 6.2666666667vw;
     letter-spacing: 0;
-    left: calc(50% + 22rem);
+    left: calc(50% + 29.3333333333vw);
     line-height: 1.5;
     white-space: nowrap;
   }
@@ -524,7 +517,7 @@
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .main__imagesBox-5 {
     display: block;
-    margin-top: 17rem;
+    margin-top: 22.6666666667vw;
   }
 }
 #MO240319swimsuit .main__imagesBox-5_leftImages {
@@ -536,7 +529,7 @@
   #MO240319swimsuit .main__imagesBox-5_leftImages {
     padding-bottom: 0;
     margin: 0 auto;
-    max-width: 52rem;
+    max-width: 69.3333333333vw;
   }
 }
 #MO240319swimsuit .main__imagesBox-5_description {
@@ -547,22 +540,22 @@
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .main__imagesBox-5_description {
     margin-left: 0;
-    margin-top: 2.9rem;
+    margin-top: 3.8666666667vw;
     letter-spacing: 0.001em;
     text-align: center;
   }
 }
 #MO240319swimsuit .main__imagesBox-5_rightImages {
-  max-width: 36.9rem;
+  max-width: 37rem;
   -ms-flex-item-align: end;
       align-self: flex-end;
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .main__imagesBox-5_rightImages {
-    margin-top: 3.7rem;
+    margin-top: 4.9333333333vw;
     margin-right: auto;
     margin-left: auto;
-    max-width: 52rem;
+    max-width: 69.3333333333vw;
   }
 }
 #MO240319swimsuit .main__imagesBox-5_head {
@@ -575,7 +568,7 @@
   #MO240319swimsuit .main__imagesBox-5_head {
     letter-spacing: 0.002em;
     line-height: 0.97;
-    font-size: 8rem;
+    font-size: 10.6666666667vw;
     text-align: center;
   }
 }
@@ -584,7 +577,7 @@
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .main__imagesBox-5_head--mr {
-    margin-right: 0;
+    margin-left: 0;
   }
 }
 #MO240319swimsuit .image_08 {
@@ -592,7 +585,7 @@
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .image_08 {
-    margin-top: 4.4rem;
+    margin-top: 5.8666666667vw;
   }
 }
 #MO240319swimsuit .bottom {
@@ -600,7 +593,7 @@
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .bottom {
-    margin-top: 15.4rem;
+    margin-top: 20.5333333333vw;
   }
 }
 #MO240319swimsuit .bottom__headBox {
@@ -621,12 +614,12 @@
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .bottom__head {
-    font-size: 2.8rem;
+    font-size: 3.7333333333vw;
     letter-spacing: 0.07em;
-    padding-top: 4.3rem;
-    padding-bottom: 4.8rem;
-    padding-right: 16.3rem;
-    padding-left: 15.7rem;
+    padding-top: 5.7333333333vw;
+    padding-bottom: 6.4vw;
+    padding-right: 21.7333333333vw;
+    padding-left: 20.9333333333vw;
   }
 }
 #MO240319swimsuit .bottom__staff {
@@ -635,7 +628,7 @@
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .bottom__staff {
-    margin-top: 13.6rem;
+    margin-top: 18.1333333333vw;
   }
 }
 #MO240319swimsuit .bottom__subHead {
@@ -644,7 +637,7 @@
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .bottom__subHead {
-    font-size: 3rem;
+    font-size: 4vw;
   }
 }
 #MO240319swimsuit .bottom__staffMember,
@@ -658,7 +651,7 @@
   #MO240319swimsuit .bottom__staffBottom {
     letter-spacing: 0.003em;
     line-height: 1.47;
-    font-size: 2.8rem;
+    font-size: 3.7333333333vw;
   }
 }
 #MO240319swimsuit .bottom__staffMember {
@@ -666,7 +659,7 @@
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .bottom__staffMember {
-    margin-top: 1.14rem;
+    margin-top: 1.52vw;
   }
 }
 #MO240319swimsuit .bottom__staffBottom {
@@ -674,6 +667,6 @@
 }
 @media screen and (max-width: 767px) {
   #MO240319swimsuit .bottom__staffBottom {
-    margin-top: 3.7rem;
+    margin-top: 4.9333333333vw;
   }
 }
